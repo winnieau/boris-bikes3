@@ -5,7 +5,8 @@ class Bike
   end
 
   def working?
-    true
+   true if @broken == false 
+   false
   end
 
   def report_broken
